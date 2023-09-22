@@ -24,9 +24,13 @@
 
 package string;
 
+import lombok.AccessLevel;
+import lombok.NoArgsConstructor;
+
 /**
  * MaxCharacterCountSnippet.
  */
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class MaxCharacterCountSnippet {
 
   /**
